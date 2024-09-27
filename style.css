@@ -1,3 +1,9 @@
-body{
-    background-color: lightskyblue;
+body {
+   color: white;
+   background: black;
+   margin: 0px;
+}
+
+header {
+    border-bottom: solid 2px rgb(153, 56, 56)
 }
