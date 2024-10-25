@@ -2,19 +2,19 @@
 
 body {
    color: white;
-   background: black;
+   background: rgb(228, 127, 13);
    margin: 0px;
 }
 
-header {
-    border-bottom: solid 2px rgb(253, 114, 0);
+header {                
+    border-bottom: solid 2px rgb(0, 0, 0);
     padding: 20px;
     font-size: 32px;
     color: rgba(255, 255, 255, 0.925);
 }
 
 section {
-    background: rgb(2, 124, 194);
+    background: rgb(0, 166, 255);
     padding-bottom: 80px;
     padding-top: 80px;
 }
@@ -35,6 +35,36 @@ h1 {
     font-size: 40px;
 }
 
+img {
+    height: 200px;
+}
+
 p {
     font-size: 40px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 400px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
 }
